@@ -9,7 +9,7 @@ class Role(var roleId: String,
            @Id @GeneratedValue var id: Long?=null)
 
 @Entity
-class User(var username: String,
+data class User(var username: String,
            var firstName: String,
            var lastName: String,
            @Id @GeneratedValue var id: Long?=null)
